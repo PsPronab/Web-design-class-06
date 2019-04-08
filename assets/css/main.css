@@ -1,0 +1,33 @@
+.myList{
+    /*list-style-type: upper-roman; lower-roman*/
+    list-style-image: url('../images/Capture.PNG');
+    /*list-style: inside;*/
+}
+.myTable{
+    border-collapse: collapse;
+    width: 80%;
+    text-align: right;
+}
+table,tr,td{
+    border: 1px solid #ddd;
+}
+td{
+    height: 50px;
+    vertical-align: bottom;
+    padding: 20px 10px;
+}
+.myTable tr:nth-child(even){
+    background: rgb(199, 199, 231);
+}
+
+p:hover{
+    font-size: 30px;
+    background: #ddd;
+}
+p{
+    display: inline;
+    background: red;
+    visibility: hidden;
+}
+
+
